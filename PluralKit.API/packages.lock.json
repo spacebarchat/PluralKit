@@ -357,16 +357,16 @@
       },
       "SqlKata": {
         "type": "Transitive",
-        "resolved": "2.4.0",
-        "contentHash": "vWRZRUL/h7azL1u7hN5TpyakPITgF6CzELjX+wv+NnVaFhL17/LmtIVq087aNMEeNsrrC5uJMcNarmuU7Y8mlg=="
+        "resolved": "4.0.1",
+        "contentHash": "uGGSjc5tHMQCTy17EZxXr74ty4P79rjtuiPWT2VsZQ8v+K6uoLaTyW050ezU3VRBmaL00b5+x0+6OfjA3l9USA=="
       },
       "SqlKata.Execution": {
         "type": "Transitive",
-        "resolved": "2.4.0",
-        "contentHash": "Sen4PQZpWitW7p8d9lbNggCVkwoIBSDqo1ZVqY5UjjRzmNJLHmFvATkqYd+ZemaMZnjjMba+a5nMIyS0uWSFeA==",
+        "resolved": "4.0.1",
+        "contentHash": "pFQg2Jn6sKtrDJyQBAYFvJQr7o5uB1rlUtOqxmLYkfPeAx6Nx8MFU1WyqE6LzYkVG6fKH2sNgG9VXl6EOKavPA==",
         "dependencies": {
           "Humanizer.Core": "2.8.26",
-          "SqlKata": "2.4.0",
+          "SqlKata": "4.0.1",
           "dapper": "2.0.123"
         }
       },
@@ -413,8 +413,8 @@
           "Serilog.Sinks.Elasticsearch": "[10.0.0, )",
           "Serilog.Sinks.File": "[6.0.0, )",
           "Serilog.Sinks.Seq": "[8.0.0, )",
-          "SqlKata": "[2.4.0, )",
-          "SqlKata.Execution": "[2.4.0, )",
+          "SqlKata": "[4.0.1, )",
+          "SqlKata.Execution": "[4.0.1, )",
           "StackExchange.Redis": "[2.12.14, )",
           "System.Interactive.Async": "[7.0.1, )"
         }
