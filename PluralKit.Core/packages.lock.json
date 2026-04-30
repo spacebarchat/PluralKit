@@ -63,12 +63,6 @@
           "Dapper": "2.0.78"
         }
       },
-      "IPNetwork2": {
-        "type": "Direct",
-        "requested": "[3.0.667, )",
-        "resolved": "3.0.667",
-        "contentHash": "0GgNIm12cDtI0Kc8oaVbgSQgqQ+yJuOyf1oyJ9eQ+Xt4uQ/2ZTvoTf6KBuRxjWF7rTD+1AreUES5khMecGAuTg=="
-      },
       "Microsoft.Extensions.Caching.Memory": {
         "type": "Direct",
         "requested": "[9.0.0, )",
