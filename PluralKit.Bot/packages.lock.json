@@ -321,19 +321,19 @@
       },
       "Npgsql": {
         "type": "Transitive",
-        "resolved": "9.0.2",
-        "contentHash": "hCbO8box7i/XXiTFqCJ3GoowyLqx3JXxyrbOJ6om7dr+eAknvBNhhUHeJVGAQo44sySZTfdVffp4BrtPeLZOAA==",
+        "resolved": "10.0.2",
+        "contentHash": "q5RfBI+wywJSFUNDE1L4ZbHEHCFTblo8Uf6A6oe4feOUFYiUQXyAf9GBh5qEZpvJaHiEbpBPkQumjEhXCJxdrg==",
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.2"
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.0"
         }
       },
       "Npgsql.NodaTime": {
         "type": "Transitive",
-        "resolved": "9.0.2",
-        "contentHash": "jURb6VGmmR3pPae2N3HrUixSZ/U5ovqZgg/qo3m5Rq/q0m2fpxbZcsHZo21s5MLa/AfJAx4hcFMY98D4RtLdcg==",
+        "resolved": "10.0.2",
+        "contentHash": "p3SslILn0zdM5YTKr0eZJRuWfA6UIFbxrgu82WL4Fhif+gWLpqhFrwntXweLhl5T7oSN5Tmvd6QNHP/7N8sLtg==",
         "dependencies": {
-          "NodaTime": "3.2.0",
-          "Npgsql": "9.0.2"
+          "NodaTime": "3.2.2",
+          "Npgsql": "10.0.2"
         }
       },
       "OpenSearch.Client": {
@@ -567,8 +567,8 @@
           "Newtonsoft.Json": "[13.0.4, )",
           "NodaTime": "[3.3.2, )",
           "NodaTime.Serialization.JsonNet": "[3.2.1, )",
-          "Npgsql": "[9.0.2, )",
-          "Npgsql.NodaTime": "[9.0.2, )",
+          "Npgsql": "[10.0.2, )",
+          "Npgsql.NodaTime": "[10.0.2, )",
           "Serilog": "[4.3.1, )",
           "Serilog.Extensions.Logging": "[8.0.0, )",
           "Serilog.Formatting.Compact": "[3.0.0, )",
