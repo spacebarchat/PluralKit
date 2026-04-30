@@ -69,7 +69,7 @@ public class LoggingModule: Module
             .Destructure.With<PatchObjectDestructuring>()
             .WriteTo.Async(a =>
                 a.Console(
-                    new CustomJsonFormatter(_component),
+                    new JsonFormatter(_component),
                     config.ConsoleLogLevel));
 
         if (config.ElasticUrl != null)
