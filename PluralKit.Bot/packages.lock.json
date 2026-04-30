@@ -10,9 +10,9 @@
       },
       "Sentry": {
         "type": "Direct",
-        "requested": "[4.13.0, )",
-        "resolved": "4.13.0",
-        "contentHash": "Wfw3M1WpFcrYaGzPm7QyUTfIOYkVXQ1ry6p4WYjhbLz9fPwV23SGQZTFDpdox67NHM0V0g1aoQ4YKLm4ANtEEg=="
+        "requested": "[6.4.1, )",
+        "resolved": "6.4.1",
+        "contentHash": "2Q2ySa5PfCB11S91qQFPJNRqPlRB5rUDtpc1B4DnecvwW5cWO7W9C3+J7K0xGfHKfUZP5pglkYmxrn+alJ7zXA=="
       },
       "Watson.Lite": {
         "type": "Direct",
@@ -91,11 +91,11 @@
       },
       "AppFact.SerilogOpenSearchSink": {
         "type": "Transitive",
-        "resolved": "0.0.8",
-        "contentHash": "RI3lfmvAwhqrYwy5KPqsBT/tB/opSzeoVH2WUfvGKNBpl6ILCw/5wE8+19L+XMzBFVqgZ5QmkQ2PqTzG9I/ckA==",
+        "resolved": "0.0.15",
+        "contentHash": "zIMlZw204cL5/+1R43kOaXDL5aRBfVaAYPuqQCX7NrRiuSKobYrwx+NxTMASyLE/zCnU62vg44+CmK0HjxQobw==",
         "dependencies": {
-          "OpenSearch.Client": "1.4.0",
-          "Serilog": "2.12.0"
+          "OpenSearch.Client": "1.8.0",
+          "Serilog": "[2.12.0, 4.2.0]"
         }
       },
       "Autofac": {
@@ -338,16 +338,16 @@
       },
       "OpenSearch.Client": {
         "type": "Transitive",
-        "resolved": "1.4.0",
-        "contentHash": "91TXm+I8PzxT0yxkf0q5Quee5stVcIFys56pU8+M3+Kiakx+aiaTAlZJHfA3Oy6dMJndNkVm37IPKYCqN3dS4g==",
+        "resolved": "1.8.0",
+        "contentHash": "OoVHys2QZpnstwA9WliaFjpV/LEs5EbKPRjy8ww8cRxJMNzHpHTwUJBJ/N8qHhP/riiTHAtNUGLvhcoBXJkyTw==",
         "dependencies": {
-          "OpenSearch.Net": "1.4.0"
+          "OpenSearch.Net": "1.8.0"
         }
       },
       "OpenSearch.Net": {
         "type": "Transitive",
-        "resolved": "1.4.0",
-        "contentHash": "xCM6m3aArN9gXIl2DvWXaDlbpjOBbgMeRPsAM7s1eDbWhu8wKNyfPNKSfep4JlYXkZ7N6Oi/+lmi+G3/SpcqlQ=="
+        "resolved": "1.8.0",
+        "contentHash": "X4n+b3Eq9u7i5qXqcSPMJRpoH7qljwCIAv2t6h46R4JuObzx28VeFG0cGoy+y4azqScfKp2t67JeuHB1Mo+4Uw=="
       },
       "Pipelines.Sockets.Unofficial": {
         "type": "Transitive",
@@ -384,11 +384,11 @@
       },
       "Serilog.Extensions.Logging": {
         "type": "Transitive",
-        "resolved": "8.0.0",
-        "contentHash": "YEAMWu1UnWgf1c1KP85l1SgXGfiVo0Rz6x08pCiPOIBt2Qe18tcZLvdBUuV5o1QHvrs8FAry9wTIhgBRtjIlEg==",
+        "resolved": "10.0.0",
+        "contentHash": "vx0kABKl2dWbBhhqAfTOk53/i8aV/5VaT3a6il9gn72Wqs2pM7EK2OB6No6xdqK2IaY6Zf9gdjLuK9BVa2rT+Q==",
         "dependencies": {
-          "Microsoft.Extensions.Logging": "8.0.0",
-          "Serilog": "3.1.1"
+          "Microsoft.Extensions.Logging": "10.0.0",
+          "Serilog": "4.2.0"
         }
       },
       "Serilog.Formatting.Compact": {
@@ -426,8 +426,8 @@
       },
       "Serilog.Sinks.Console": {
         "type": "Transitive",
-        "resolved": "6.0.0",
-        "contentHash": "fQGWqVMClCP2yEyTXPIinSr5c+CBGUvBybPxjAGcf7ctDhadFhrQw03Mv8rJ07/wR5PDfFjewf2LimvXCDzpbA==",
+        "resolved": "6.1.1",
+        "contentHash": "8jbqgjUyZlfCuSTaJk6lOca465OndqOz3KZP6Cryt/IqZYybyBu7GP0fE/AXBzrrQB3EBmQntBFAvMVz1COvAA==",
         "dependencies": {
           "Serilog": "4.0.0"
         }
@@ -447,10 +447,10 @@
       },
       "Serilog.Sinks.File": {
         "type": "Transitive",
-        "resolved": "6.0.0",
-        "contentHash": "lxjg89Y8gJMmFxVkbZ+qDgjl+T4yC5F7WSLTvA+5q0R04tfKVLRL/EHpYoJ/MEQd2EeCKDuylBIVnAYMotmh2A==",
+        "resolved": "7.0.0",
+        "contentHash": "fKL7mXv7qaiNBUC71ssvn/dU0k9t0o45+qm2XgKAlSt19xF+ijjxyA3R6HmCgfKEKwfcfkwWjayuQtRueZFkYw==",
         "dependencies": {
-          "Serilog": "4.0.0"
+          "Serilog": "4.2.0"
         }
       },
       "Serilog.Sinks.PeriodicBatching": {
@@ -463,11 +463,11 @@
       },
       "Serilog.Sinks.Seq": {
         "type": "Transitive",
-        "resolved": "8.0.0",
-        "contentHash": "z5ig56/qzjkX6Fj4U/9m1g8HQaQiYPMZS4Uevtjg1I+WWzoGSf5t/E+6JbMP/jbZYhU63bA5NJN5y0x+qqx2Bw==",
+        "resolved": "9.0.0",
+        "contentHash": "aNU8A0K322q7+voPNmp1/qNPH+9QK8xvM1p72sMmCG0wGlshFzmtDW9QnVSoSYCj0MgQKcMOlgooovtBhRlNHw==",
         "dependencies": {
-          "Serilog": "4.0.0",
-          "Serilog.Sinks.File": "5.0.0"
+          "Serilog": "4.2.0",
+          "Serilog.Sinks.File": "6.0.0"
         }
       },
       "SqlKata": {
@@ -551,7 +551,7 @@
         "dependencies": {
           "App.Metrics": "[4.3.0, )",
           "App.Metrics.Reporting.InfluxDB": "[4.3.0, )",
-          "AppFact.SerilogOpenSearchSink": "[0.0.8, )",
+          "AppFact.SerilogOpenSearchSink": "[0.0.15, )",
           "Autofac": "[9.1.0, )",
           "Autofac.Extensions.DependencyInjection": "[11.0.0, )",
           "Dapper": "[2.1.72, )",
@@ -570,14 +570,14 @@
           "Npgsql": "[10.0.2, )",
           "Npgsql.NodaTime": "[10.0.2, )",
           "Serilog": "[4.3.1, )",
-          "Serilog.Extensions.Logging": "[8.0.0, )",
+          "Serilog.Extensions.Logging": "[10.0.0, )",
           "Serilog.Formatting.Compact": "[3.0.0, )",
           "Serilog.NodaTime": "[3.0.0, )",
           "Serilog.Sinks.Async": "[2.1.0, )",
-          "Serilog.Sinks.Console": "[6.0.0, )",
+          "Serilog.Sinks.Console": "[6.1.1, )",
           "Serilog.Sinks.Elasticsearch": "[10.0.0, )",
-          "Serilog.Sinks.File": "[6.0.0, )",
-          "Serilog.Sinks.Seq": "[8.0.0, )",
+          "Serilog.Sinks.File": "[7.0.0, )",
+          "Serilog.Sinks.Seq": "[9.0.0, )",
           "SqlKata": "[4.0.1, )",
           "SqlKata.Execution": "[4.0.1, )",
           "StackExchange.Redis": "[2.12.14, )",
