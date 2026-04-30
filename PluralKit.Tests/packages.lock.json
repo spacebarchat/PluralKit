@@ -407,13 +407,13 @@
       },
       "NodaTime": {
         "type": "Transitive",
-        "resolved": "3.2.0",
-        "contentHash": "yoRA3jEJn8NM0/rQm78zuDNPA3DonNSZdsorMUj+dltc1D+/Lc5h9YXGqbEEZozMGr37lAoYkcSM/KjTVqD0ow=="
+        "resolved": "3.3.2",
+        "contentHash": "8hI5b1ENTKQCaPyU6YHpYiMwj5aJKZ4Mnv0bLbhk65Dd44gQsXenUohMzyiIphANa8LdW6vcOvpY/l1urvx4dw=="
       },
       "NodaTime.Serialization.JsonNet": {
         "type": "Transitive",
-        "resolved": "3.1.0",
-        "contentHash": "eEr9lXUz50TYr4rpeJG4TDAABkpxjIKr5mDSi/Zav8d6Njy6fH7x4ZtNwWFj0Vd+vIvEZNrHFQ4Gfy8j4BqRGg==",
+        "resolved": "3.2.1",
+        "contentHash": "/8eeaH/LNIcpIEiBTg/0M/hwsMis0cKVWPyLYnQhXrH2k+9zNrnsOin9Vym6OclSGGndOnNNa6EHUln4S70HKg==",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
           "NodaTime": "[3.0.0, 4.0.0)"
@@ -738,8 +738,8 @@
       "myriad": {
         "type": "Project",
         "dependencies": {
-          "NodaTime": "[3.2.0, )",
-          "NodaTime.Serialization.JsonNet": "[3.1.0, )",
+          "NodaTime": "[3.3.2, )",
+          "NodaTime.Serialization.JsonNet": "[3.2.1, )",
           "Polly": "[8.5.0, )",
           "Polly.Contrib.WaitAndRetry": "[1.1.1, )",
           "Serilog": "[4.3.1, )",
@@ -787,8 +787,8 @@
           "Microsoft.Extensions.DependencyInjection": "[10.0.7, )",
           "Microsoft.Extensions.Logging": "[10.0.7, )",
           "Newtonsoft.Json": "[13.0.4, )",
-          "NodaTime": "[3.2.0, )",
-          "NodaTime.Serialization.JsonNet": "[3.1.0, )",
+          "NodaTime": "[3.3.2, )",
+          "NodaTime.Serialization.JsonNet": "[3.2.1, )",
           "Npgsql": "[9.0.2, )",
           "Npgsql.NodaTime": "[9.0.2, )",
           "Serilog": "[4.3.1, )",
