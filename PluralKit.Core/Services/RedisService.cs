@@ -39,12 +39,16 @@ public static class RedisExt
         var data = await database.StringGetAsync(key);
         if (data == RedisValue.Null) return null;
 
-        if (ulong.TryParse(data, out var value))
+        // TODO: is this cast valid? - resolves CS0121 (call is ambiguous between ReadOnlySpan<byte> and string?)
+        if (ulong.TryParse((string?)data, out var value))
             return value;
 
         return null;
     }
 
+    // TODO: default expiry behavior? StringSetAsync now requires an Expiration that either takes a TTL or absolute date.
     public static Task UlongSetAsync(this StackExchange.Redis.IDatabase database, string key, ulong value, TimeSpan? expiry = null)
-        => database.StringSetAsync(key, value.ToString(), expiry);
+        => expiry is null
+            ? database.StringSetAsync(key, value.ToString())
+            : database.StringSetAsync(key, value.ToString(), new Expiration((TimeSpan)expiry));
 }
