@@ -125,8 +125,8 @@
       },
       "CavemanTcp": {
         "type": "Transitive",
-        "resolved": "2.0.9",
-        "contentHash": "KgIwYhPhGkBTm+wwVAmWonkKPw4xYVnutzzlIeqOLcX1fti+8d+MEGTvbern1smf3S/UpjFjihkf6XRziTddzQ=="
+        "resolved": "2.0.13",
+        "contentHash": "Or6mNCqckgfDDkjjg8bUcZTtK7GV+KB7Eh4kbpAVdSNU7/halKzqItsBmZDdIHFDoQDBjYjKwbfgBnZfBphJbQ=="
       },
       "Dapper": {
         "type": "Transitive",
@@ -677,8 +677,8 @@
       },
       "Watson.Core": {
         "type": "Transitive",
-        "resolved": "6.3.12",
-        "contentHash": "lCWv+7rz++z/1ceu+aBdJYw+nO7u/dgXxVYrmdUO/3ylFeEbbPQP19MYjOJbhSQY4+bmQRex79YJ1IneLZhprA==",
+        "resolved": "6.6.0",
+        "contentHash": "/u12KKME21baJZliQA91ZcmQHK2/PGU5GnFG8gkX9Ynl07YhUMRZ8bMotcnVu74witDyUhwB1HPrRZD5NblEKA==",
         "dependencies": {
           "IpMatcher": "1.0.5",
           "RegexMatcher": "1.0.9",
@@ -688,11 +688,11 @@
       },
       "Watson.Lite": {
         "type": "Transitive",
-        "resolved": "6.3.12",
-        "contentHash": "L/TfJadyOwK9bhhvOnEKXLeyDaTAn8v6hnYPVPIwQ7JlnUXDbDqsUa3qHFdFIHiuK8vMZOnDL7+k/mY10yxdYw==",
+        "resolved": "6.6.0",
+        "contentHash": "a4XFyIh+6N1D4c0BAUkPkGENzR6e+QlgWz/koDObfu7bY+Xu6agIkPRkbdA/ZXIpLDWquJY4UIEJ+BLi5b66hg==",
         "dependencies": {
-          "CavemanTcp": "2.0.9",
-          "Watson.Core": "6.3.12"
+          "CavemanTcp": "2.0.13",
+          "Watson.Core": "6.6.0"
         }
       },
       "xunit.abstractions": {
@@ -765,7 +765,7 @@
           "Myriad": "[1.0.0, )",
           "PluralKit.Core": "[1.0.0, )",
           "Sentry": "[4.13.0, )",
-          "Watson.Lite": "[6.3.12, )"
+          "Watson.Lite": "[6.6.0, )"
         }
       },
       "pluralkit.core": {
