@@ -356,10 +356,10 @@
       },
       "Polly": {
         "type": "Transitive",
-        "resolved": "8.5.0",
-        "contentHash": "GBNZPy7i7OpkaIruWPRJ0+AWzdGDQDnKY91b7Ic2aAch4lKhPjUc5KSffpH9krIWe0MoyghqaRxwRC0Uwz2PkA==",
+        "resolved": "8.6.6",
+        "contentHash": "czKHYJ6uGowPijuZt4kgF4njfGvWxVZ8mKBcrZ9iEtwDe9HKdF0ug6p6TwUG8EHuuufgbDU//rSBFebt5/0Fyw==",
         "dependencies": {
-          "Polly.Core": "8.5.0"
+          "Polly.Core": "8.6.6"
         }
       },
       "Polly.Contrib.WaitAndRetry": {
@@ -369,8 +369,8 @@
       },
       "Polly.Core": {
         "type": "Transitive",
-        "resolved": "8.5.0",
-        "contentHash": "VYYMZNitZ85UEhwOKkTQI63WEMvzUqwQc74I2mm8h/DBVAMcBBxqYPni4DmuRtbCwngmuONuK2yBJfWNRKzI+A=="
+        "resolved": "8.6.6",
+        "contentHash": "lCBL9mmhF9TZxHG3beVRkyjlLohkIC464xIAq7J7Y59C+z42hmsdUaeCKl2SIAYertOUU5TeBXyQDLDQGIKePQ=="
       },
       "RegexMatcher": {
         "type": "Transitive",
@@ -539,7 +539,7 @@
         "dependencies": {
           "NodaTime": "[3.3.2, )",
           "NodaTime.Serialization.JsonNet": "[3.2.1, )",
-          "Polly": "[8.5.0, )",
+          "Polly": "[8.6.6, )",
           "Polly.Contrib.WaitAndRetry": "[1.1.1, )",
           "Serilog": "[4.3.1, )",
           "StackExchange.Redis": "[2.12.14, )",
